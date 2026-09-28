@@ -2,8 +2,6 @@
 
 An agentic financial research system that pulls company data from multiple sources, extracts factual claims from each one, independently verifies every claim against the original source text, flags disagreements between sources, and only then produces a structured research report.
 
-Built as a 3rd-semester OJT project (GenAI track) by Suhrid Marwah and Ashnaa Seth.
-
 ---
 
 ## 1. Problem Statement
