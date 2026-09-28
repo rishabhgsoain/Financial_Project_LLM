@@ -27,7 +27,7 @@ class Settings(BaseSettings):
     openai_api_key: str | None = None
     openai_model: str = "gpt-4o"
     groq_api_key: str | None = None
-    groq_model: str = "groq/compound-mini"
+    groq_model: str = "llama-3.3-70b-versatile"
     # Optional tokens-per-minute pacing budget for whichever provider is
     # active (see app/llm/rate_limiter.py). None = no pacing, fire calls as
     # ready (fine for a paid/high-limit account). Set this below your
